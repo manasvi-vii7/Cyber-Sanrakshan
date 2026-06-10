@@ -1,0 +1,55 @@
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://expertphotography.b-cdn.net/wp-content/uploads/2019/01/food-photography-blogs-dark.jpg);
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+}
+.container{
+    background-color: crimson;
+    height:1cm;
+}
+
+#title{
+    position:absolute;
+    top:30%;
+    left:50%;
+    font-family:emoji;
+    transform:translate(-50%,-50%);
+    color:white;
+    font-size: 100px;
+    font-weight: bolder;
+}
+#title:hover{
+    color:crimson; 
+}
+button{
+    display: inline-block;
+    padding: 8px 16px;
+    position:absolute;
+    background:transparent;
+    border-radius:1%;
+    top:65%;
+    left:45%;
+    text-decoration: none;
+}
+button a{
+    color:white;
+    font-weight:bolder;
+    text-decoration: none;
+}
+button:hover{
+    background-color: crimson;
+}
+button a:hover {
+    color:rgb(245, 253, 245);
+    font-weight: bolder;
+}
+#body{
+    top:50%;
+    left:50%;
+    color:whitesmoke;
+    font-size:20px;
+    font-family:system-ui;
+    position:absolute;
+    transform:translate(-50%,-50%);
+}
